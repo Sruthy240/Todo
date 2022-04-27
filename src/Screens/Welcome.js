@@ -12,7 +12,6 @@ export default class Welcome extends Component {
     async componentDidMount() {
         this.checkAsyncFunction();
         const storage = JSON.parse(await AsyncStorage.getItem('Todo'))
-
         console.log(typeof storage);
         this.setState({ formArray:storage }) 
     

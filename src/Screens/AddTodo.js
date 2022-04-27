@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { View, SafeAreaView, Text, Dimensions, TextInput, Pressable, } from 'react-native'
 import DatePicker from 'react-native-datepicker'
 import AsyncStorage from '@react-native-async-storage/async-storage'
-import { get } from 'react-native/Libraries/TurboModule/TurboModuleRegistry';
 
 const { width, height } = Dimensions.get('screen');
 export default class AddTodo extends Component {
